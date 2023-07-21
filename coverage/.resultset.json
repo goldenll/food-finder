@@ -7,6 +7,19 @@
           null
         ]
       },
+      "/Users/laurengolden/turing_work/3mod/challenges/food-finder/app/facades/food_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          50,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/laurengolden/turing_work/3mod/challenges/food-finder/app/services/food_service.rb": {
         "lines": [
           1,
@@ -23,6 +36,23 @@
           null,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/laurengolden/turing_work/3mod/challenges/food-finder/app/poros/food.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          50,
+          50,
+          50,
+          50,
           null,
           null
         ]
@@ -49,21 +79,6 @@
       },
       "/Users/laurengolden/turing_work/3mod/challenges/food-finder/app/controllers/application_controller.rb": {
         "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/laurengolden/turing_work/3mod/challenges/food-finder/app/facades/food_facade.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           0,
           0
         ],
@@ -103,6 +118,6 @@
         }
       }
     },
-    "timestamp": 1689955980
+    "timestamp": 1689956872
   }
 }
