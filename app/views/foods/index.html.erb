@@ -1,0 +1,6 @@
+<h1> Foods </h1>
+
+<%= @foods.count %>
+<% @foods.each do |food| %>
+  <li><%= food.gtinupc %><%= food.description %><%= food.brandowner %><%= food.ingredients %></li>
+<% end %>
