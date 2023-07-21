@@ -4,7 +4,6 @@ RSpec.describe "food service" do
   it "returns a list of foods" do 
     search = FoodService.new.food_search("sweet potatoes")
     food1 = search[:foods].first
-    # require 'pry'; binding.pry
 
     expect(search).to be_a(Hash)
     expect(search).to have_key(:totalHits)
