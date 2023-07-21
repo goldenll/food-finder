@@ -1,24 +1,25 @@
-# README
+# Mid-Mod Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+As a user,
 
-Things you may want to cover:
+When I visit "/"
 
-* Ruby version
+And I fill in the search form with "sweet potatoes"
 
-* System dependencies
+(Note: Use the existing search form)
 
-* Configuration
+And I click "Search"
 
-* Database creation
+Then I should be on page "/foods"
 
-* Database initialization
+Then I should see a total of the number of items returned by the search.
 
-* How to run the test suite
+(sweet potatoes should find more than 30,000 results)
 
-* Services (job queues, cache servers, search engines, etc.)
+Then I should see a list of TEN foods that contain the ingredient "sweet potatoes"
 
-* Deployment instructions
-
-* ...
+And for each of the foods I should see:
+- The food's GTIN/UPC code
+- The food's description
+- The food's Brand Owner
+- The food's ingredients
